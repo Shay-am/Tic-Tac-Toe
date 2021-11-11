@@ -1,40 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Tic Tac Toe</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tic Tac Toe</title>
-    <link rel="stylesheet" href="style.css">
+	<body>
+		<header>
+			<h1 id="content">Tic Tac Toe</h1>
+		</header>
+		<main>
+			<article class="main">
+				<section class="player">
+					<article id="inCircleLeft" class="inCircle"></article>
+					<p id="namePlayer1" class="namePlayer">Shay-Am</p>
+					<p id="countWinL" class="countWin">0</p>
+				</section>
+				<div id="container"></div>
+				<section class="player">
+					<article id="inCircleRight" class="inCircle"></article>
+					<p id="namePlayer2" class="namePlayer">Player 2</p>
+					<p id="countWinR" class="countWin">0</p>
+				</section>
+			</article>
+			<div class="button">
+				<button id="button" class="button">Next Round</button>
+			</div>
+		</main>
+		<div id="formId"></div>
 
-</head>
-
-<body>
-    <header>
-        <h1 id="content">Tic Tac Toe</h1>
-    </header>
-    <main>
-        <article class="main">
-            <section class="player">
-                <article id="inCircleLeft" class="inCircle"></article>
-                <p id="namePlayer1" class="namePlayer">Shay-Am</p>
-                <p id="countWinL" class="countWin">0</p>
-            </section>
-            <div id="container"></div>
-            <section class="player">
-                <article id="inCircleRight" class="inCircle"></article>
-                <p id="namePlayer2" class="namePlayer">Player 2</p>
-                <p id="countWinR" class="countWin">0</p>
-            </section>
-        </article>
-        <div class="button">
-            <button id="button" class="button">Next Round</button>
-        </div>
-    </main>
-    <div id="formId"></div>
-    <script src="form.js" async></script>
-
-    <script src="main.js" async></script>
-</body>
-
+		<script src="main.js" async></script>
+	</body>
 </html>
