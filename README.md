@@ -2,11 +2,8 @@
 
 ## Stack:
 
-#Game Tic Tac Teo
-
-# Stack:
-
 Javascript
+css
 
 ## Link to Live Demo
 
