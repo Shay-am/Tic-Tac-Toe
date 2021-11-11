@@ -1,6 +1,10 @@
 # Game Tic Tac Teo
 
-##q Stack:
+## Stack:
+
+#Game Tic Tac Teo
+
+# Stack:
 
 Javascript
 
