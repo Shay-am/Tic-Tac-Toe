@@ -153,34 +153,4 @@ const loadAllFunctions = (function () {
 	borderAdd();
 	nextRound();
 	board.addEventListener("click", boardEventListener);
-	//createForm();
 })();
-////////////////////////////////////////////////////////////
-//Create Form
-
-const formId = document.getElementById("formId");
-
-let form = document.createElement("form");
-form.classList.add("form");
-form.innerHTML = `
-<h1>Player2</h1>
-<form>
-<input type="text" placeholder="Player name" name="playerName"></input>
-<label for="x">X</label>
-<input type="radio" name="Player" id="x" value="x">
-<label for="o">O</label>
-<input type="radio" name="Player" id="o" value="o">
-<input type="submit" class="submit">
-</form>`;
-formId.appendChild(form);
-
-let createFormToPlay = document.querySelector("form");
-createFormToPlay.onsubmit = function (e) {
-	e.preventDefault();
-	createFormToPlay.classList.add("hidden");
-
-	let player1 = (document.getElementById("namePlayer2").innerHTML =
-		this.playerName.value);
-	playerFlag = this.Player.value;
-	player_flag = playerFlag;
-};
