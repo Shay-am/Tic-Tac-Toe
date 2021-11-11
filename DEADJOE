@@ -1,0 +1,36 @@
+
+*** These modified files were found in JOE when it aborted on Thu Nov 11 09:27:05 2021
+*** JOE was aborted by UNIX signal 1
+
+*** File '/home/shay-am/Project/Tic-Tac-Toe/.git/COMMIT_EDITMSG'
+added link to live demo
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# Date:      Thu Nov 11 09:24:38 2021 +0100
+#
+# On branch main
+# Your branch is up to date with 'origin/main'.
+#
+# Changes to be committed:
+#	zmodyfikowany: README.md
+#
+
+*** File '(Unnamed)'
+/home/shay-am/mySecondExpress/.git/COMMIT_EDITMSG
+/home/shay-am/mySecondExpress/.git/COMMIT_EDITMSG
+/home/shay-am/apiRestfull/.git/COMMIT_EDITMSG
+/home/shay-am/CalendarApp/Master/.git/COMMIT_EDITMSG
+/home/shay-am/TodoListReact/todolist/.git/COMMIT_EDITMSG
+/home/shay-am/users-blog/.git/COMMIT_EDITMSG
+/home/shay-am/users-blog/.git/COMMIT_EDITMSG
+/home/shay-am/users-blog/.git/COMMIT_EDITMSG
+/home/shay-am/users-blog/.git/MERGE_MSG
+/home/shay-am/users-blog/.git/MERGE_MSG
+/home/shay-am/Project/Tic-Tac-Toe/.git/COMMIT_EDITMSG
+
+*** File '* Startup Log *'
+Processing '/etc/joe/editorrc'...
+Processing '/etc/joe/ftyperc'...
+Finished processing /etc/joe/ftyperc
+Finished processing /etc/joe/editorrc
